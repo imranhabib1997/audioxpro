@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/grad.jpg); */
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 5px -28px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c0000;
+}
+
+#logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-left: 10px;
+    float: left;
+    text-decoration: none;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul {
+    padding-top: -5px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-right: 1px solid #ff7200;
+    padding-right: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+#last {
+    border-right: none;
+}
+
+.nav-links ul li a:hover {
+    color: rgb(255, 114, 0);
+}
+
+.nav-bar {
+    flex: 1;
+    position: relative;
+    left: 1px;
+    margin: auto;
+    text-align: center;
+    height: 45px;
+    background: rgb(32 18 4 / 99%);
+}
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+    right: 38px;
+
+}
+
+.nav-bar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-bar ul li a:hover {
+    color: #ff7200;
+}
+
+.nav-bar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    display: none;
+}
+
+.nav-bar ul li ul li {
+    width: 80%;
+}
+
+.nav-bar ul li ul li:hover {
+    border-bottom: 1px solid rgba(255, 114, 0, 0.5);
+}
+
+.nav-bar ul li:hover>ul {
+    display: block;
+}
+
+/* header-banner for displaying the dropdown lists and the mega menu lists starting from here */
+.header-banner {
+    background-color: #000;
+    width: 100%;
+    height: 250px;
+}
+
+#carouselExampleInterval {
+    width: 100%;
+    height: 700px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+/* -------------------------Second section of text area------------- */
+
+
+
+.textarea {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.textarea .textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+.textarea .textContent .headingOfText {
+    margin: 20px;
+}
+
+.textarea .textContent .headingOfText h1 {
+    color: #ff7200;
+    font-size: 80px;
+    font-weight: 500;
+    text-decoration: underline rgba(255, 0, 0, 0.5);
+}
+
+.textarea .textContent .text {
+    margin: auto;
+    padding: 5px 50px;
+}
+
+.textarea .textContent .text p {
+    color: #fff;
+}
+
+.installationUpgrade {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.installationUpgrade .headingOfInstallation {
+    margin: 0px 70px;
+    padding-top: 20px;
+}
+
+.installationUpgrade .headingOfInstallation h1 {
+    color: #ff7200;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.installationUpgrade .headingOfInstallation hr {
+    color: red;
+
+}
+
+/* .boxes {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} */
+
+
+/* -------------copy paste fron universeal camera------- */
+
+.subcontainer {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.subcontainer .contentContainer {
+    margin: 20px;
+}
+
+.subcontainer.contentContainer .image {
+    width: 290px;
+}
+
+.subcontainer.contentContainer .image a {
+    display: inline-block;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: #ff7200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+.subcontainer.contentContainer .image a:hover {
+    color: #000;
+    background-color: #ff7200;
+    transform: rotate(360deg);
+}
+
+.subcontainer .contentContainer .title p {
+    width: 300px;
+    color: #fff;
+}
